@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Owokan-Token-React/precache-manifest.adf5183be6de92c06c1f3a1958ff3f22.js"
+  "/Owokan-Token-React/precache-manifest.68bd6f5f93e708c47c41876acaa82d3a.js"
 );
 
 self.addEventListener('message', (event) => {
