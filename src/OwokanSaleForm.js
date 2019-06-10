@@ -13,7 +13,6 @@ class OwokanSaleForm extends Component {
           <form onSubmit={(event) => {
             event.preventDefault();
             this.props.buyTokens(this.number.value)
-            // console.log(this.number.value);
           }}>
               <div className="form-group">
                   <div className="input-group">

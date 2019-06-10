@@ -126,9 +126,6 @@ class App extends Component {
 
   listenForEvents() {
     this.state.owokanSale.events.Sell().on('data', result => {
-      console.log('token bought');
-      console.log(result);
-      // this.setState({ loading: false });
       this.loadData();
     });
   }
